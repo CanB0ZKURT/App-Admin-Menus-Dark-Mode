@@ -1,0 +1,384 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    justify-content: center;
+    font-family: 'Nunito', sans-serif;
+}
+
+body{
+    background-color: #D5D7DE;
+    overflow: hidden;
+}
+
+.container{
+    position: relative;
+    left: 450px;
+}
+
+.backgr-black{
+    width: 4rem;
+    height: 650px;
+    background-color: #111827;
+    border-radius: 5px;
+    position: relative;
+    left: 370px;
+    top: 150px;
+}
+
+.fa-cubes{
+    color: #9CA3AF;
+    font-size: 33px;
+    position: relative;
+    left: 16px;
+    top: 16px;
+}
+
+#hr{
+    width: 48px;
+    height: 0.1px;
+    position: relative;
+    left: 8.5px;
+    top: 25px;
+}
+
+.fa-home{
+    color: #9CA3AF;
+    font-size: 23px;
+    position: relative;
+    left: 9px;
+    top: 40px;
+    padding: 10px;
+}
+
+.bg-hover-icon:hover{
+    background-color: #444857;
+    border-radius: 5px;
+    color: rgb(224, 224, 224);
+}
+
+.fa-search{
+    color: #9CA3AF;
+    font-size: 24px;
+    position: relative;
+    left: 10px;
+    top: 55px;
+    padding: 10px;
+}
+
+.fa-database{
+    font-size: 24px;
+    position: relative;
+    left: 12px;
+    top: 70px;
+    padding: 10px;
+    background-color: #444857;
+    border-radius: 5px;
+    color: rgb(224, 224, 224);
+}
+
+.fa-copy{
+    color: #9CA3AF;
+    font-size: 24px;
+    position: relative;
+    left: 12px;
+    top: 85px;
+    padding: 10px;
+}
+
+#hr2{
+    width: 48px;
+    height: 0.1px;
+    position: relative;
+    left: 8px;
+    top: 110px;
+}
+
+.fa-shopping-basket{
+    color: #9CA3AF;
+    font-size: 24px;
+    position: relative;
+    left: 8.5px;
+    top: 120px;
+    padding: 10px;
+}
+
+.fa-sliders-h{
+    color: #9CA3AF;
+    font-size: 24px;
+    position: relative;
+    left: 10px;
+    top: 125px;
+    padding: 10px;
+}
+
+.fa-envelope-open-text{
+    color: #9CA3AF;
+    font-size: 24px;
+    position: relative;
+    left: 10px;
+    top: 130px;
+    padding: 10px;
+}
+
+.fa-circle{
+    color: rgb(255, 0, 0);
+    position: relative;
+    top: 116px;
+    left: -32px;
+    font-size: 7px;
+}
+
+.fa-user{
+    color: #9CA3AF;
+    font-size: 24px;
+    position: relative;
+    left: 12px;
+    top: 192px;
+    padding: 10px;
+}
+
+.account{
+    width: 4rem;
+    height: 60px;
+    background-color: #1f2937;
+    position: relative;
+    top: 245px;
+    border-radius: 5px;
+}
+
+.fas{
+    cursor: pointer;
+}
+
+/* App */
+
+.app{
+    width: 10rem;
+    height: 650px;
+    background-color: #111827;
+    border-radius: 5px;
+    position: relative;
+    left: 85px;
+    top: -448px;
+}
+
+.uygulama{
+    font-size: 18px;
+    position: relative;
+    left: 42px;
+    top: -25px;
+}
+
+#hr3{
+    width: 9rem;
+    height: 0.1px;
+    position: relative;
+    left: 8px;
+    top: 4px;
+}
+
+.app-2{
+    position: relative;
+    top: 20px;
+}
+
+.uygulama2{
+    font-size: 18px;
+    position: relative;
+    left: 10px;
+    top: -3px;
+    display: inline;
+}
+
+.app-2:hover{
+    background-color: #444857;
+    border-radius: 5px;
+    color: rgb(224, 224, 224);
+}
+
+.hvr-2{
+    width: 141px;
+}
+
+.app-3{
+    position: relative;
+    top: 31px;
+}
+
+.app-3:hover{
+    background-color: #444857;
+    border-radius: 5px;
+    color: rgb(224, 224, 224);
+}
+
+#data{
+    display: inline;
+    font-size: 18px;
+    position: relative;
+    left: 10px;
+    top: -3px;
+}
+
+.app-4{
+    position: relative;
+    top: 48px;
+    left: 9px;
+}
+
+.app-4:hover{
+    background-color: #444857;
+    border-radius: 5px;
+    color: rgb(224, 224, 224);
+}
+
+.data{
+    display: inline;
+    font-size: 18px;
+    position: relative;
+    left: 10px;
+    top: -3px;
+}
+
+.app-5{
+    position: relative;
+    top: 65px;
+    left: 9px;
+}
+
+.app-5:hover{
+    background-color: #444857;
+    border-radius: 5px;
+    color: rgb(224, 224, 224);
+}
+
+.app-6{
+    position: relative;
+    top: 100px;
+    left: 9px;
+}
+
+.app-6:hover{
+    background-color: #444857;
+    border-radius: 5px;
+    color: rgb(224, 224, 224);
+}
+
+#hr4{
+    width: 9rem;
+    height: 0.1px;
+    position: relative;
+    left: 8px;
+    top: 89px;
+}
+
+.app-7{
+    position: relative;
+    top: 100px;
+    left: 9px;
+}
+
+.app-7:hover{
+    background-color: #444857;
+    border-radius: 5px;
+    color: rgb(224, 224, 224);
+}
+
+.ayar{
+    display: inline;
+    font-size: 18px;
+    position: relative;
+    left: 15px;
+    top: -3px;
+}
+
+/* Ayarlar Buttons Position */
+.pst-1{
+    position: relative;
+    top: 103px;
+}
+
+.app-8{
+    position: relative;
+    top: 100px;
+    left: 9px;
+}
+
+.app-8:hover{
+    background-color: #444857;
+    border-radius: 5px;
+    color: rgb(224, 224, 224);
+}
+
+.msg-ps{
+    display: inline;
+    font-size: 18px;
+    position: relative;
+    left: 15px;
+    top: -3px;
+}
+
+.app-9{
+    position: relative;
+    top: 100px;
+    left: 9px;
+}
+
+.app-9:hover{
+    background-color: #444857;
+    border-radius: 5px;
+    color: rgb(224, 224, 224);
+}
+
+.pst-2{
+    position: relative;
+    top: 110px;
+}
+
+.account-2{
+    width: 10rem;
+    height: 60px;
+    background-color: #1f2937;
+    position: relative;
+    top: 225px;
+    border-radius: 5px;
+}
+
+.usr-pst{
+    position: relative;
+    left: 10px;
+    top: 171px;
+}
+
+.account-app{
+    display: inline;
+    font-size: 18px;
+    position: relative;
+    left: 20px;
+
+}
+
+.footer
+{
+    height: 60px;
+    width: 100%;
+    background-color: #1f2937;
+    line-height: 60px;
+    color: white;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    font-size: 20px;
+}
+
+.footer .ftr{
+    transition: 0.3s;
+}
+
+.footer .ftr:hover{
+    color: #FFCE6E;
+    transform: scale(0.9);
+}
